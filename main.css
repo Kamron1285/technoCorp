@@ -1,0 +1,94 @@
+.navbar .navbar .nav img {
+  width: 80%;
+  margin-left: 5%;
+}
+
+.navbar .navbar .nav-link a, .navbar .navbar .nav-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar .navbar .nav-link::after {
+  content: url("./images/Group 18.png");
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.navbar .navbar .nav-link::before {
+  content: url("./images/Group 17.png");
+  opacity: 0;
+  vertical-align: middle;
+}
+
+.navbar .navbar .nav-link:hover::after {
+  color: #0A7F2E;
+  opacity: 1;
+}
+
+.navbar .navbar .nav-link:hover::before {
+  color: #0A7F2E;
+  opacity: 1;
+}
+
+.section1 .col-md-6 {
+  padding: 1%;
+  margin-top: 8%;
+}
+
+.section1 .col-md-6 h1 {
+  color: #0A7F2E;
+}
+
+.section1 .col-md-6 p {
+  margin-top: 10%;
+}
+
+.section1 .col-md-6 img {
+  margin-top: 10%;
+  z-index: 1;
+}
+
+.section1 .col-md-6 .vector {
+  margin-top: -85%;
+  z-index: -1;
+}
+
+.section2 {
+  background-image: url("images/Rectangle.png");
+  background-size: 100% 100%;
+  border: 1px solid #fff;
+}
+
+.section2 .jamoa {
+  margin: 5%;
+}
+
+.section2 .jamoa .col-md-8 .h1 {
+  color: #fff;
+}
+
+.section2 .jamoa .yuborish {
+  margin-top: 10%;
+}
+
+.section2 .jamoa .yuborish button {
+  padding: 1%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.section2 .jamoa .yuborish button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.section3 .first {
+  background-color: aliceblue;
+}
+
+.section3 .first ul li {
+  margin-top: 5%;
+  list-style-image: url("images/Rectangle 42.png");
+}
+/*# sourceMappingURL=main.css.map */
